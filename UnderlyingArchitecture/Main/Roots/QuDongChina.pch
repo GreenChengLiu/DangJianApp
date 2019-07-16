@@ -1,0 +1,55 @@
+//
+//  QuDongChina.pch
+//  com.quDongChina
+//
+//  Created by mac on 2019/5/24.
+//  Copyright © 2019 mac. All rights reserved.
+//
+
+#ifndef QuDongChina_pch
+#define QuDongChina_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Header.h"
+#import "Masonry.h"
+
+#import <AFNetworking.h>
+#import <SDWebImage.h>
+#import <MJRefresh.h>
+
+//url 总览
+#import "QDUrl.h"
+//#import "UserApi.h"
+
+//弹框
+#import "SVProgressHUD.h"
+/** tool **/
+#import "NSString+Size.h"
+#import "NSString+Judgement.h"
+//网络请求
+#import "QDApi.h"
+//微信
+#import "WXApi.h"
+//qq
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/sdkdef.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/QQApiInterfaceObject.h>
+
+
+#import "NSDictionary+AnalysisData.h"
+#import "NSString+Judgement.h"
+/** model **/
+#import "UserModel.h"
+#import "YYModel.h"
+
+
+#define WX_APP_KEY @"wx7e492f8cebad677d"
+#define WX_APP_SECRET @"bb7f672bee3bd12c7c5f199222111519"
+
+#define QQ_APP_KEY @"101447549"
+#define QQ_APP_SECRET @"05c1f84da15f1dcd49252b75b4fd2fd0"
+
+#endif /* QuDongChina_pch */

@@ -1,0 +1,44 @@
+//
+//  XPageView.h
+//  PageViewDemo
+//  https://github.com/MrLSPBoy/PageViewController
+//  Created by Object on 17/7/11.
+//  Copyright © 2017年 Object. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "LPCTitleStyle.h"
+#import "LPCTitleView.h"
+#import "LPCContentView.h"
+
+@class LPCPageView;
+@protocol LPCPageViewDelegate <NSObject>
+
+//页面切换完成之后
+- (void)pageViewScollEndView:(LPCPageView *)pageView WithIndex:(NSInteger)index;
+
+@end
+
+@interface LPCPageView : UIView
+
+/**
+ 直接在需要PageView的控制器中，一句代码实例化(调用此方法),如需更改TitleView的样式在LSPTitleStyle.m中重新设置即可
+
+ @param frame PageView的Frame
+ @param titles 标题数组
+ @param style 设置PageView的多个属性
+ @param childVcs 子控制器数组
+ @param parentVc 父控制器
+ @return pageView
+ */
+- (LPCPageView *)initWithFrame:(CGRect)frame titles:(NSArray <NSString *>*)titles style:(LPCTitleStyle *)style childVcs:(NSArray <UIViewController *>*)childVcs parentVc:(UIViewController *)parentVc;
+
+/**
+ 可以设置跳转到指定界面
+ 默认是0
+ */
+- (void)setToIndex:(NSInteger)index;
+
+@property(nonatomic, weak) id <LPCPageViewDelegate> delegate;
+
+@end
