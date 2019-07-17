@@ -74,6 +74,34 @@
 		0456BFE922D4892700E90D3C /* SessionUploadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456BFE722D4892700E90D3C /* SessionUploadController.xib */; };
 		045B7C1822D33624006773EC /* AssessmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B7C1522D33623006773EC /* AssessmentCell.m */; };
 		045B7C1922D33624006773EC /* AssessmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045B7C1622D33624006773EC /* AssessmentCell.xib */; };
+		046248AF22DF1E6F009964FF /* ACHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248A922DF1E6F009964FF /* ACHModel.m */; };
+		046248B022DF1E6F009964FF /* OrganizationalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248AC22DF1E6F009964FF /* OrganizationalModel.m */; };
+		046248B122DF1E6F009964FF /* SecreataryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248AE22DF1E6F009964FF /* SecreataryModel.m */; };
+		046248C322DF1F40009964FF /* ReceiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248B222DF1F3E009964FF /* ReceiveCell.xib */; };
+		046248C422DF1F40009964FF /* ACNoneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248B322DF1F3E009964FF /* ACNoneCell.xib */; };
+		046248C522DF1F40009964FF /* CollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248B422DF1F3E009964FF /* CollCell.xib */; };
+		046248C622DF1F40009964FF /* ACHCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248B522DF1F3F009964FF /* ACHCell.m */; };
+		046248C722DF1F40009964FF /* SecretaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248B822DF1F3F009964FF /* SecretaryCell.m */; };
+		046248C822DF1F40009964FF /* ACNoneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248B922DF1F3F009964FF /* ACNoneCell.m */; };
+		046248C922DF1F40009964FF /* ACHCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248BA22DF1F3F009964FF /* ACHCell.xib */; };
+		046248CA22DF1F40009964FF /* CollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248BB22DF1F3F009964FF /* CollCell.m */; };
+		046248CB22DF1F40009964FF /* ReceiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248BC22DF1F3F009964FF /* ReceiveCell.m */; };
+		046248CC22DF1F40009964FF /* PersonalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248BD22DF1F3F009964FF /* PersonalView.m */; };
+		046248CD22DF1F40009964FF /* SecretaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248C222DF1F40009964FF /* SecretaryCell.xib */; };
+		046248E322DF1F64009964FF /* MicroInformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248CE22DF1F62009964FF /* MicroInformationController.xib */; };
+		046248E422DF1F64009964FF /* OrganizationalNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248D122DF1F62009964FF /* OrganizationalNavigationController.xib */; };
+		046248E522DF1F64009964FF /* MessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248D222DF1F62009964FF /* MessageController.m */; };
+		046248E622DF1F64009964FF /* SecretaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248D322DF1F62009964FF /* SecretaryController.m */; };
+		046248E722DF1F64009964FF /* ViewMessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248D522DF1F62009964FF /* ViewMessageController.xib */; };
+		046248E822DF1F64009964FF /* OrganizationalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248D622DF1F62009964FF /* OrganizationalNavigationController.m */; };
+		046248E922DF1F64009964FF /* AchievementDisplayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248D722DF1F63009964FF /* AchievementDisplayController.xib */; };
+		046248EA22DF1F64009964FF /* MicroInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248D822DF1F63009964FF /* MicroInformationController.m */; };
+		046248EB22DF1F64009964FF /* SecretaryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248DA22DF1F63009964FF /* SecretaryController.xib */; };
+		046248EC22DF1F64009964FF /* AchievementDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248DB22DF1F63009964FF /* AchievementDisplayController.m */; };
+		046248ED22DF1F64009964FF /* MessageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248DE22DF1F64009964FF /* MessageController.xib */; };
+		046248EE22DF1F64009964FF /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248DF22DF1F64009964FF /* PageController.m */; };
+		046248EF22DF1F64009964FF /* PageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046248E022DF1F64009964FF /* PageController.xib */; };
+		046248F022DF1F64009964FF /* ViewMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046248E122DF1F64009964FF /* ViewMessageController.m */; };
 		04975C1D22CB5EA0001A5514 /* BranchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04975C1A22CB5E9F001A5514 /* BranchCell.m */; };
 		04975C1E22CB5EA0001A5514 /* BranchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04975C1B22CB5E9F001A5514 /* BranchCell.xib */; };
 		04A9A4CA22CB2E81003FD66C /* 首页1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A9A4C822CB2E81003FD66C /* 首页1.png */; };
@@ -396,6 +424,50 @@
 		045B7C1522D33623006773EC /* AssessmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssessmentCell.m; sourceTree = "<group>"; };
 		045B7C1622D33624006773EC /* AssessmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssessmentCell.xib; sourceTree = "<group>"; };
 		045B7C1722D33624006773EC /* AssessmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssessmentCell.h; sourceTree = "<group>"; };
+		046248A922DF1E6F009964FF /* ACHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHModel.m; sourceTree = "<group>"; };
+		046248AA22DF1E6F009964FF /* ACHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHModel.h; sourceTree = "<group>"; };
+		046248AB22DF1E6F009964FF /* OrganizationalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationalModel.h; sourceTree = "<group>"; };
+		046248AC22DF1E6F009964FF /* OrganizationalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationalModel.m; sourceTree = "<group>"; };
+		046248AD22DF1E6F009964FF /* SecreataryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecreataryModel.h; sourceTree = "<group>"; };
+		046248AE22DF1E6F009964FF /* SecreataryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecreataryModel.m; sourceTree = "<group>"; };
+		046248B222DF1F3E009964FF /* ReceiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveCell.xib; sourceTree = "<group>"; };
+		046248B322DF1F3E009964FF /* ACNoneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACNoneCell.xib; sourceTree = "<group>"; };
+		046248B422DF1F3E009964FF /* CollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollCell.xib; sourceTree = "<group>"; };
+		046248B522DF1F3F009964FF /* ACHCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACHCell.m; sourceTree = "<group>"; };
+		046248B622DF1F3F009964FF /* ACHCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACHCell.h; sourceTree = "<group>"; };
+		046248B722DF1F3F009964FF /* PersonalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalView.h; sourceTree = "<group>"; };
+		046248B822DF1F3F009964FF /* SecretaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretaryCell.m; sourceTree = "<group>"; };
+		046248B922DF1F3F009964FF /* ACNoneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACNoneCell.m; sourceTree = "<group>"; };
+		046248BA22DF1F3F009964FF /* ACHCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACHCell.xib; sourceTree = "<group>"; };
+		046248BB22DF1F3F009964FF /* CollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollCell.m; sourceTree = "<group>"; };
+		046248BC22DF1F3F009964FF /* ReceiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveCell.m; sourceTree = "<group>"; };
+		046248BD22DF1F3F009964FF /* PersonalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalView.m; sourceTree = "<group>"; };
+		046248BE22DF1F40009964FF /* CollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollCell.h; sourceTree = "<group>"; };
+		046248BF22DF1F40009964FF /* ReceiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveCell.h; sourceTree = "<group>"; };
+		046248C022DF1F40009964FF /* SecretaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretaryCell.h; sourceTree = "<group>"; };
+		046248C122DF1F40009964FF /* ACNoneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACNoneCell.h; sourceTree = "<group>"; };
+		046248C222DF1F40009964FF /* SecretaryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecretaryCell.xib; sourceTree = "<group>"; };
+		046248CE22DF1F62009964FF /* MicroInformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MicroInformationController.xib; sourceTree = "<group>"; };
+		046248CF22DF1F62009964FF /* SecretaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretaryController.h; sourceTree = "<group>"; };
+		046248D022DF1F62009964FF /* AchievementDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementDisplayController.h; sourceTree = "<group>"; };
+		046248D122DF1F62009964FF /* OrganizationalNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrganizationalNavigationController.xib; sourceTree = "<group>"; };
+		046248D222DF1F62009964FF /* MessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageController.m; sourceTree = "<group>"; };
+		046248D322DF1F62009964FF /* SecretaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretaryController.m; sourceTree = "<group>"; };
+		046248D422DF1F62009964FF /* ViewMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewMessageController.h; sourceTree = "<group>"; };
+		046248D522DF1F62009964FF /* ViewMessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewMessageController.xib; sourceTree = "<group>"; };
+		046248D622DF1F62009964FF /* OrganizationalNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrganizationalNavigationController.m; sourceTree = "<group>"; };
+		046248D722DF1F63009964FF /* AchievementDisplayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementDisplayController.xib; sourceTree = "<group>"; };
+		046248D822DF1F63009964FF /* MicroInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicroInformationController.m; sourceTree = "<group>"; };
+		046248D922DF1F63009964FF /* MicroInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MicroInformationController.h; sourceTree = "<group>"; };
+		046248DA22DF1F63009964FF /* SecretaryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecretaryController.xib; sourceTree = "<group>"; };
+		046248DB22DF1F63009964FF /* AchievementDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementDisplayController.m; sourceTree = "<group>"; };
+		046248DC22DF1F63009964FF /* PageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageController.h; sourceTree = "<group>"; };
+		046248DD22DF1F63009964FF /* OrganizationalNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationalNavigationController.h; sourceTree = "<group>"; };
+		046248DE22DF1F64009964FF /* MessageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageController.xib; sourceTree = "<group>"; };
+		046248DF22DF1F64009964FF /* PageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageController.m; sourceTree = "<group>"; };
+		046248E022DF1F64009964FF /* PageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageController.xib; sourceTree = "<group>"; };
+		046248E122DF1F64009964FF /* ViewMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewMessageController.m; sourceTree = "<group>"; };
+		046248E222DF1F64009964FF /* MessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageController.h; sourceTree = "<group>"; };
 		04975C1A22CB5E9F001A5514 /* BranchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchCell.m; sourceTree = "<group>"; };
 		04975C1B22CB5E9F001A5514 /* BranchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BranchCell.xib; sourceTree = "<group>"; };
 		04975C1C22CB5EA0001A5514 /* BranchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchCell.h; sourceTree = "<group>"; };
@@ -1706,6 +1778,27 @@
 				04B5F52122CC5899007D631C /* CadreDetailsController.h */,
 				04B5F52222CC5899007D631C /* CadreDetailsController.m */,
 				04B5F52322CC5899007D631C /* CadreDetailsController.xib */,
+				046248D022DF1F62009964FF /* AchievementDisplayController.h */,
+				046248DB22DF1F63009964FF /* AchievementDisplayController.m */,
+				046248D722DF1F63009964FF /* AchievementDisplayController.xib */,
+				046248E222DF1F64009964FF /* MessageController.h */,
+				046248D222DF1F62009964FF /* MessageController.m */,
+				046248DE22DF1F64009964FF /* MessageController.xib */,
+				046248D922DF1F63009964FF /* MicroInformationController.h */,
+				046248D822DF1F63009964FF /* MicroInformationController.m */,
+				046248CE22DF1F62009964FF /* MicroInformationController.xib */,
+				046248DD22DF1F63009964FF /* OrganizationalNavigationController.h */,
+				046248D622DF1F62009964FF /* OrganizationalNavigationController.m */,
+				046248D122DF1F62009964FF /* OrganizationalNavigationController.xib */,
+				046248DC22DF1F63009964FF /* PageController.h */,
+				046248DF22DF1F64009964FF /* PageController.m */,
+				046248E022DF1F64009964FF /* PageController.xib */,
+				046248CF22DF1F62009964FF /* SecretaryController.h */,
+				046248D322DF1F62009964FF /* SecretaryController.m */,
+				046248DA22DF1F63009964FF /* SecretaryController.xib */,
+				046248D422DF1F62009964FF /* ViewMessageController.h */,
+				046248E122DF1F64009964FF /* ViewMessageController.m */,
+				046248D522DF1F62009964FF /* ViewMessageController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1717,6 +1810,12 @@
 				A6A2ABDF22BF352000B6063B /* BrokeModel.m */,
 				040979F422C0B87E000A9C2D /* PartyModel.h */,
 				040979F522C0B87E000A9C2D /* PartyModel.m */,
+				046248AA22DF1E6F009964FF /* ACHModel.h */,
+				046248A922DF1E6F009964FF /* ACHModel.m */,
+				046248AB22DF1E6F009964FF /* OrganizationalModel.h */,
+				046248AC22DF1E6F009964FF /* OrganizationalModel.m */,
+				046248AD22DF1E6F009964FF /* SecreataryModel.h */,
+				046248AE22DF1E6F009964FF /* SecreataryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1741,6 +1840,23 @@
 				045B7C1722D33624006773EC /* AssessmentCell.h */,
 				045B7C1522D33623006773EC /* AssessmentCell.m */,
 				045B7C1622D33624006773EC /* AssessmentCell.xib */,
+				046248B622DF1F3F009964FF /* ACHCell.h */,
+				046248B522DF1F3F009964FF /* ACHCell.m */,
+				046248BA22DF1F3F009964FF /* ACHCell.xib */,
+				046248C122DF1F40009964FF /* ACNoneCell.h */,
+				046248B922DF1F3F009964FF /* ACNoneCell.m */,
+				046248B322DF1F3E009964FF /* ACNoneCell.xib */,
+				046248BE22DF1F40009964FF /* CollCell.h */,
+				046248BB22DF1F3F009964FF /* CollCell.m */,
+				046248B422DF1F3E009964FF /* CollCell.xib */,
+				046248B722DF1F3F009964FF /* PersonalView.h */,
+				046248BD22DF1F3F009964FF /* PersonalView.m */,
+				046248BF22DF1F40009964FF /* ReceiveCell.h */,
+				046248BC22DF1F3F009964FF /* ReceiveCell.m */,
+				046248B222DF1F3E009964FF /* ReceiveCell.xib */,
+				046248C022DF1F40009964FF /* SecretaryCell.h */,
+				046248B822DF1F3F009964FF /* SecretaryCell.m */,
+				046248C222DF1F40009964FF /* SecretaryCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2182,7 +2298,9 @@
 				A6A2AB3922BF341500B6063B /* ZLPhotoLib.bundle in Resources */,
 				A6A2AC2C22C044D600B6063B /* README.txt in Resources */,
 				0456BFE922D4892700E90D3C /* SessionUploadController.xib in Resources */,
+				046248C922DF1F40009964FF /* ACHCell.xib in Resources */,
 				0414D57622C303760034E652 /* 定采欢迎页3.jpg in Resources */,
+				046248EB22DF1F64009964FF /* SecretaryController.xib in Resources */,
 				A6A2AB1522BF341400B6063B /* MLPhotoBrowser.bundle in Resources */,
 				04013BD222C4C84300D19FD3 /* jquery-2.2.0.js in Resources */,
 				04A9A4CA22CB2E81003FD66C /* 首页1.png in Resources */,
@@ -2190,15 +2308,23 @@
 				04B5F54D22CCAA33007D631C /* SessionsAndLessonController.xib in Resources */,
 				04013BB622C466C900D19FD3 /* HomeCell.xib in Resources */,
 				040358F922C602F900F4FC68 /* SPVideoPlayer.bundle in Resources */,
+				046248C422DF1F40009964FF /* ACNoneCell.xib in Resources */,
 				0414D56922C3009E0034E652 /* WelcomeViewController.xib in Resources */,
 				04975C1E22CB5EA0001A5514 /* BranchCell.xib in Resources */,
 				A628031A22AB4D4900A30200 /* LaunchScreen.storyboard in Resources */,
 				04013BD422C4C84300D19FD3 /* lo.jpg in Resources */,
+				046248CD22DF1F40009964FF /* SecretaryCell.xib in Resources */,
 				04B5F52A22CC5F5B007D631C /* AddReportController.xib in Resources */,
+				046248E722DF1F64009964FF /* ViewMessageController.xib in Resources */,
 				04013BB422C466C900D19FD3 /* HomeNoImgCell.xib in Resources */,
+				046248E922DF1F64009964FF /* AchievementDisplayController.xib in Resources */,
+				046248E422DF1F64009964FF /* OrganizationalNavigationController.xib in Resources */,
 				A6A2AAA922BF33FB00B6063B /* IQKeyboardManager.bundle in Resources */,
 				0403591122C6171C00F4FC68 /* CollectionCell.xib in Resources */,
 				045B7C1922D33624006773EC /* AssessmentCell.xib in Resources */,
+				046248EF22DF1F64009964FF /* PageController.xib in Resources */,
+				046248C322DF1F40009964FF /* ReceiveCell.xib in Resources */,
+				046248C522DF1F40009964FF /* CollCell.xib in Resources */,
 				04B5F52022CC3A70007D631C /* CadreReportCell.xib in Resources */,
 				A628031722AB4D4900A30200 /* Assets.xcassets in Resources */,
 				04FA062D22C20DC80036ECBA /* 启动页.jpg in Resources */,
@@ -2213,10 +2339,12 @@
 				A6A2AC2722C044D600B6063B /* UMSocialSDKResources.bundle in Resources */,
 				04A9A4DA22CB4A56003FD66C /* ExamRankingCell.xib in Resources */,
 				A6A2AC2E22C044D600B6063B /* WeiboSDK.bundle in Resources */,
+				046248E322DF1F64009964FF /* MicroInformationController.xib in Resources */,
 				04B5F52522CC5899007D631C /* CadreDetailsController.xib in Resources */,
 				0414D57722C303760034E652 /* 定采欢迎页4.jpg in Resources */,
 				04013BD122C4C84300D19FD3 /* temp.html in Resources */,
 				040358C922C5AEF300F4FC68 /* DynamicVideoController.xib in Resources */,
+				046248ED22DF1F64009964FF /* MessageController.xib in Resources */,
 				04013BD322C4C84300D19FD3 /* jquery.lazyload.js in Resources */,
 				04013BD022C4C84300D19FD3 /* holder.jpg in Resources */,
 			);
@@ -2334,7 +2462,10 @@
 				04A9A4D422CB4961003FD66C /* ExanRankingController.m in Sources */,
 				04013BAC22C45B9100D19FD3 /* OrganApi.m in Sources */,
 				A62803BD22ABE70100A30200 /* MASConstraintMaker.m in Sources */,
+				046248AF22DF1E6F009964FF /* ACHModel.m in Sources */,
 				A6A2ABBF22BF347A00B6063B /* LSPTitleStyle.m in Sources */,
+				046248F022DF1F64009964FF /* ViewMessageController.m in Sources */,
+				046248EA22DF1F64009964FF /* MicroInformationController.m in Sources */,
 				A6A2AAA422BF33FB00B6063B /* IQToolbar.m in Sources */,
 				A6A2ABE022BF352000B6063B /* BrokeModel.m in Sources */,
 				A6A2AAAE22BF33FB00B6063B /* IQUIView+Hierarchy.m in Sources */,
@@ -2352,6 +2483,7 @@
 				A6A2ABC322BF347A00B6063B /* ShareView.m in Sources */,
 				A6A2AB2F22BF341400B6063B /* UIViewController+Alert.m in Sources */,
 				A62803BB22ABE70100A30200 /* ViewController+MASAdditions.m in Sources */,
+				046248B022DF1E6F009964FF /* OrganizationalModel.m in Sources */,
 				04013BAB22C45B9100D19FD3 /* PartyApi.m in Sources */,
 				04013BB722C466C900D19FD3 /* HomeNoImgCell.m in Sources */,
 				A6A2AB1A22BF341400B6063B /* MLPhotoBrowserViewController.m in Sources */,
@@ -2359,6 +2491,7 @@
 				A6A2ABC522BF347A00B6063B /* ZYTokenManager.m in Sources */,
 				A6A2AB2322BF341400B6063B /* ZLPhotoRect.m in Sources */,
 				A6A2ABCF22BF347A00B6063B /* MySwitch.m in Sources */,
+				046248EC22DF1F64009964FF /* AchievementDisplayController.m in Sources */,
 				A62803F322ABE72A00A30200 /* BaseViewController.m in Sources */,
 				A6A2AB3022BF341400B6063B /* ZLPhotoPickerGroupViewController.m in Sources */,
 				040979F922C0B888000A9C2D /* DynamicModel.m in Sources */,
@@ -2366,11 +2499,13 @@
 				A6A2ABDA22BF347A00B6063B /* LPCPageView.m in Sources */,
 				040358ED22C602F900F4FC68 /* UITabBarController+SPPlayerRotation.m in Sources */,
 				04A9A4CF22CB3281003FD66C /* FileController.m in Sources */,
+				046248CC22DF1F40009964FF /* PersonalView.m in Sources */,
 				A62803C222ABE70100A30200 /* MASViewConstraint.m in Sources */,
 				A6A2ABD022BF347A00B6063B /* NSArray+judgement.m in Sources */,
 				A628031D22AB4D4900A30200 /* main.m in Sources */,
 				0414D56D22C302590034E652 /* CadreReportController.m in Sources */,
 				040358EF22C602F900F4FC68 /* UIViewController+SPPlayerRotation.m in Sources */,
+				046248CB22DF1F40009964FF /* ReceiveCell.m in Sources */,
 				A6A2AB1E22BF341400B6063B /* MLPhotoBrowserPhotoView.m in Sources */,
 				A6A2AB3522BF341400B6063B /* ZLPhotoPickerCollectionViewCell.m in Sources */,
 				04013BC822C4C36700D19FD3 /* DynamicDetailsController.m in Sources */,
@@ -2400,6 +2535,7 @@
 				A62803BE22ABE70100A30200 /* MASLayoutConstraint.m in Sources */,
 				A6A2AAB022BF33FB00B6063B /* IQKeyboardReturnKeyHandler.m in Sources */,
 				04097A1022C0BBC9000A9C2D /* SDCycleScrollView.m in Sources */,
+				046248C622DF1F40009964FF /* ACHCell.m in Sources */,
 				A6A2AB3622BF341400B6063B /* ZLPhotoPickerFooterCollectionReusableView.m in Sources */,
 				0456BFE822D4892700E90D3C /* SessionUploadController.m in Sources */,
 				04B5F54122CC8C9C007D631C /* CGXPickerViewManager.m in Sources */,
@@ -2409,10 +2545,12 @@
 				A6A2AAA622BF33FB00B6063B /* IQBarButtonItem.m in Sources */,
 				A6A2AAAC22BF33FB00B6063B /* IQUITextFieldView+Additions.m in Sources */,
 				A62803C122ABE70100A30200 /* MASConstraint.m in Sources */,
+				046248EE22DF1F64009964FF /* PageController.m in Sources */,
 				040979F622C0B87E000A9C2D /* PartyModel.m in Sources */,
 				045B7C1822D33624006773EC /* AssessmentCell.m in Sources */,
 				0403590722C6032800F4FC68 /* SPDownloadManager.m in Sources */,
 				A6A2AAB622BF33FB00B6063B /* JQFMDB.m in Sources */,
+				046248E622DF1F64009964FF /* SecretaryController.m in Sources */,
 				040979F322C0B81E000A9C2D /* PartyBuildingViewController.m in Sources */,
 				A62803F422ABE72A00A30200 /* QDTabController.m in Sources */,
 				A6A2ABCB22BF347A00B6063B /* XHWebImageAutoSizeConst.m in Sources */,
@@ -2422,6 +2560,7 @@
 				040358F622C602F900F4FC68 /* SPLoadingHUD.m in Sources */,
 				A6A2AAAA22BF33FB00B6063B /* IQKeyboardManager.m in Sources */,
 				040358F322C602F900F4FC68 /* SPVideoPlayerView.m in Sources */,
+				046248C822DF1F40009964FF /* ACNoneCell.m in Sources */,
 				040358FB22C602F900F4FC68 /* SPVideoCutView.m in Sources */,
 				0403591022C6171C00F4FC68 /* CollectionCell.m in Sources */,
 				040979FC22C0B893000A9C2D /* OrganizationModel.m in Sources */,
@@ -2434,6 +2573,7 @@
 				04B5F54622CC8C9C007D631C /* CGXAddressModel.m in Sources */,
 				A6A2AB3322BF341400B6063B /* ZLPhotoPickerViewController.m in Sources */,
 				A6A2AB1F22BF341400B6063B /* MLPhotoBrowserPhotoImageView.m in Sources */,
+				046248E822DF1F64009964FF /* OrganizationalNavigationController.m in Sources */,
 				A6A2AAB222BF33FB00B6063B /* FMDatabaseAdditions.m in Sources */,
 				04B5F54422CC8C9C007D631C /* CGXDatePickerView.m in Sources */,
 				A62803BF22ABE70100A30200 /* NSArray+MASAdditions.m in Sources */,
@@ -2441,6 +2581,7 @@
 				A6A2AAB122BF33FB00B6063B /* FMDatabaseQueue.m in Sources */,
 				A6A2AB1922BF341400B6063B /* MLPhotoBrowserAssets.m in Sources */,
 				A6A2ABC922BF347A00B6063B /* UICollectionView+XHWebImageAutoSize.m in Sources */,
+				046248B122DF1E6F009964FF /* SecreataryModel.m in Sources */,
 				A6A2ABC022BF347A00B6063B /* LSPPageView.m in Sources */,
 				A6A2AB2A22BF341400B6063B /* UIImage+ZLPhotoLib.m in Sources */,
 				040358F422C602F900F4FC68 /* SPVideoPopView.m in Sources */,
@@ -2454,6 +2595,7 @@
 				040979FF22C0B89A000A9C2D /* MineModel.m in Sources */,
 				0403590622C6032800F4FC68 /* SPDownloadConst.m in Sources */,
 				A6A2AB2522BF341400B6063B /* ZLPhotoPickerBrowserViewController.m in Sources */,
+				046248CA22DF1F40009964FF /* CollCell.m in Sources */,
 				A6A2AAB522BF33FB00B6063B /* FMResultSet.m in Sources */,
 				04097A1522C0BBC9000A9C2D /* TAAnimatedDotView.m in Sources */,
 				A6A2AB1722BF341400B6063B /* MLPhotoBrowserPhoto.m in Sources */,
@@ -2466,6 +2608,7 @@
 				A6A2ABD422BF347A00B6063B /* Transition.m in Sources */,
 				04B5F54222CC8C9C007D631C /* NSDate+CGXPicker.m in Sources */,
 				A6A2ABC722BF347A00B6063B /* UIImage+ImgSize.m in Sources */,
+				046248C722DF1F40009964FF /* SecretaryCell.m in Sources */,
 				040358F822C602F900F4FC68 /* SPVideoSlider.m in Sources */,
 				A62803DE22ABE70100A30200 /* UserModel.m in Sources */,
 				04013BAD22C45B9100D19FD3 /* DynamicApi.m in Sources */,
@@ -2476,6 +2619,7 @@
 				A62803DB22ABE70100A30200 /* MBProgressHUD.m in Sources */,
 				A6A2AB3722BF341400B6063B /* ZLPhotoPickerImageView.m in Sources */,
 				040358C822C5AEF300F4FC68 /* DynamicVideoController.m in Sources */,
+				046248E522DF1F64009964FF /* MessageController.m in Sources */,
 				A62803C522ABE70100A30200 /* SVProgressAnimatedView.m in Sources */,
 				040358F522C602F900F4FC68 /* SPBrightnessView.m in Sources */,
 				A62803C022ABE70100A30200 /* View+MASAdditions.m in Sources */,

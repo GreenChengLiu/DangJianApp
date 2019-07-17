@@ -86,4 +86,36 @@ static PartyApi *api = nil;
         err(error);
     }];
 }
+- (void)achievementControllerWithParmeters:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:PARTY_ARTICLES andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
+
+- (void)secretaryToTalkRequestParmeters:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:PARTY_SECRETARY andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
+
+- (void)receivePhonesRequest:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:PARTY_RECEIVE andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
+
+- (void)messageAddRequest:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:PARTY_MESSAGE_ADD andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
+
 @end

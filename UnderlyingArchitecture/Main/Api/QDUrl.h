@@ -54,5 +54,8 @@
  */
 #define DYNAMIC_LIST NSStringFormat(@"%@index/articles",QD_BASE_URL)
 
-
+#define PARTY_ARTICLES NSStringFormat(@"%@index/articles",QD_BASE_URL)
+#define PARTY_SECRETARY NSStringFormat(@"%@Sjyhs/index",QD_BASE_URL)
+#define PARTY_RECEIVE NSStringFormat(@"%@Sjyhs/get_phones",QD_BASE_URL)
+#define PARTY_MESSAGE_ADD NSStringFormat(@"%@Sjyhs/add",QD_BASE_URL)
 #endif /* QDUrl_h */

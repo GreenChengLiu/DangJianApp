@@ -62,6 +62,26 @@ NS_ASSUME_NONNULL_BEGIN
  @param err 错误
  */
 - (void)partyAssessmentListParameters:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+/**
+ 成果有展示
+ 
+ @param json category_id:
+ @param success 成功
+ @param err 失败
+ */
+- (void)achievementControllerWithParmeters:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+
+/**
+ 书记有话说
+ 
+ @param json page limit
+ @param success 成功
+ @param err 失败
+ */
+- (void)secretaryToTalkRequestParmeters:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+
+- (void)receivePhonesRequest:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+- (void)messageAddRequest:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
 @end
 
 NS_ASSUME_NONNULL_END

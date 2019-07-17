@@ -14,6 +14,11 @@
 #import "CadreReportController.h"
 #import "SDCycleScrollView.h"
 #import "SessionsAndLessonController.h"
+
+#import "SecretaryController.h"
+#import "PageController.h"
+#import "OrganizationalNavigationController.h"
+#import "MicroInformationController.h"
 /**  cell  **/
 #import "CollectionCell.h"
 #import "PartyView.h"
@@ -187,11 +192,13 @@
         
         self.tabBarController.selectedIndex = 2;
     } else if (buildingStatus == buildingStatusSpeak) {
-        
+        SecretaryController *secreataryVC = [[SecretaryController alloc] init];
+        [self.navigationController pushViewController:secreataryVC animated:YES];
     } else if (buildingStatus == buildingStatusArrangement) {
         
     } else if (buildingStatus == buildingStatusShow) {
-        
+        PageController *ach = [[PageController alloc] init];
+        [self.navigationController pushViewController:ach animated:YES];
     } else if (buildingStatus == buildingStatusPlease) {
         
     } else if (buildingStatus == buildingStatusBranch) {
@@ -201,9 +208,11 @@
         exanRank.titles = @"支部排行";
         [self.navigationController pushViewController:exanRank animated:YES];
     } else if (buildingStatus == buildingStatusNavigation) {
-        
+        OrganizationalNavigationController *ach = [[OrganizationalNavigationController alloc] init];
+        [self.navigationController pushViewController:ach animated:YES];
     } else {
-        
+        MicroInformationController *micro = [[MicroInformationController alloc] init];
+        [self.navigationController pushViewController:micro animated:YES];
     }
 }
 
