@@ -45,9 +45,26 @@
  */
 #define PARTY_CADRE_REPORT_ADD NSStringFormat(@"%@ganbubaobei/add",QD_BASE_URL)
 /**
+ *干部报备详情
+ */
+#define CADRE_DETAIL NSStringFormat(@"%@ganbubaobei/detail",QD_BASE_URL)
+/**
+ 书记有话说
+ */
+#define PARTY_SECRETARY NSStringFormat(@"%@Sjyhs/index",QD_BASE_URL)
+/**
+ 书记有话说--获取联系列表
+ */
+#define PARTY_RECEIVE NSStringFormat(@"%@Sjyhs/get_phones",QD_BASE_URL)
+/**
+ *书记有话说--新增记录
+ */
+#define PARTY_MESSAGE_ADD NSStringFormat(@"%@Sjyhs/add",QD_BASE_URL)
+/**
  三会一课,考核列表
  */
 #define PARTY_ASSESSMENT_LIST NSStringFormat(@"%@Daily_examination/index",QD_BASE_URL)
+
 #pragma mark ======   党建动态   ======
 /**
  党建列表
@@ -55,7 +72,7 @@
 #define DYNAMIC_LIST NSStringFormat(@"%@index/articles",QD_BASE_URL)
 
 #define PARTY_ARTICLES NSStringFormat(@"%@index/articles",QD_BASE_URL)
-#define PARTY_SECRETARY NSStringFormat(@"%@Sjyhs/index",QD_BASE_URL)
-#define PARTY_RECEIVE NSStringFormat(@"%@Sjyhs/get_phones",QD_BASE_URL)
-#define PARTY_MESSAGE_ADD NSStringFormat(@"%@Sjyhs/add",QD_BASE_URL)
+
+
+
 #endif /* QDUrl_h */

@@ -81,7 +81,19 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)secretaryToTalkRequestParmeters:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
 
 - (void)receivePhonesRequest:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+/**
+ 发布消息
+ */
 - (void)messageAddRequest:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+
+/**
+ 干部外出报备详情
+
+ @param json id  token
+ @param success 成功
+ @param err 失败
+ */
+- (void)partyCadreDetail:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
 @end
 
 NS_ASSUME_NONNULL_END

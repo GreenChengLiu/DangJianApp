@@ -93,7 +93,7 @@ static PartyApi *api = nil;
         err(error);
     }];
 }
-
+#pragma mark ======   书记有话说   ======
 - (void)secretaryToTalkRequestParmeters:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
     [QDApi apiRequestWithRequestMethod:@"post" Url:PARTY_SECRETARY andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
         success(dict);
@@ -118,4 +118,11 @@ static PartyApi *api = nil;
     }];
 }
 
+- (void)partyCadreDetail:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:CADRE_DETAIL andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
 @end

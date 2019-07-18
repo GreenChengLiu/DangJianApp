@@ -69,6 +69,11 @@
 		0414D57722C303760034E652 /* 定采欢迎页4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0414D57322C303760034E652 /* 定采欢迎页4.jpg */; };
 		0414D57D22C364A70034E652 /* UserApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414D57B22C364A70034E652 /* UserApi.m */; };
 		0414D58022C366920034E652 /* QDApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0414D57F22C366920034E652 /* QDApi.m */; };
+		041C8C6922E041F1008BBEE8 /* CardeReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6822E041F1008BBEE8 /* CardeReportModel.m */; };
+		041C8C6D22E060F3008BBEE8 /* CadreOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C6B22E060F3008BBEE8 /* CadreOneCell.m */; };
+		041C8C6E22E060F3008BBEE8 /* CadreOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C8C6C22E060F3008BBEE8 /* CadreOneCell.xib */; };
+		041C8C7222E0611F008BBEE8 /* CadreTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C8C7022E0611F008BBEE8 /* CadreTwoCell.m */; };
+		041C8C7322E0611F008BBEE8 /* CadreTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041C8C7122E0611F008BBEE8 /* CadreTwoCell.xib */; };
 		0446AA6922CA115200C9255E /* PartyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446AA6822CA115200C9255E /* PartyView.m */; };
 		0456BFE822D4892700E90D3C /* SessionUploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0456BFE622D4892700E90D3C /* SessionUploadController.m */; };
 		0456BFE922D4892700E90D3C /* SessionUploadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456BFE722D4892700E90D3C /* SessionUploadController.xib */; };
@@ -416,6 +421,14 @@
 		0414D57C22C364A70034E652 /* UserApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserApi.h; sourceTree = "<group>"; };
 		0414D57E22C366920034E652 /* QDApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDApi.h; sourceTree = "<group>"; };
 		0414D57F22C366920034E652 /* QDApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDApi.m; sourceTree = "<group>"; };
+		041C8C6722E041F1008BBEE8 /* CardeReportModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardeReportModel.h; sourceTree = "<group>"; };
+		041C8C6822E041F1008BBEE8 /* CardeReportModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardeReportModel.m; sourceTree = "<group>"; };
+		041C8C6A22E060F3008BBEE8 /* CadreOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CadreOneCell.h; sourceTree = "<group>"; };
+		041C8C6B22E060F3008BBEE8 /* CadreOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CadreOneCell.m; sourceTree = "<group>"; };
+		041C8C6C22E060F3008BBEE8 /* CadreOneCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadreOneCell.xib; sourceTree = "<group>"; };
+		041C8C6F22E0611F008BBEE8 /* CadreTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CadreTwoCell.h; sourceTree = "<group>"; };
+		041C8C7022E0611F008BBEE8 /* CadreTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CadreTwoCell.m; sourceTree = "<group>"; };
+		041C8C7122E0611F008BBEE8 /* CadreTwoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadreTwoCell.xib; sourceTree = "<group>"; };
 		0446AA6722CA115200C9255E /* PartyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyView.h; sourceTree = "<group>"; };
 		0446AA6822CA115200C9255E /* PartyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyView.m; sourceTree = "<group>"; };
 		0456BFE522D4892700E90D3C /* SessionUploadController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionUploadController.h; sourceTree = "<group>"; };
@@ -1816,6 +1829,8 @@
 				046248AC22DF1E6F009964FF /* OrganizationalModel.m */,
 				046248AD22DF1E6F009964FF /* SecreataryModel.h */,
 				046248AE22DF1E6F009964FF /* SecreataryModel.m */,
+				041C8C6722E041F1008BBEE8 /* CardeReportModel.h */,
+				041C8C6822E041F1008BBEE8 /* CardeReportModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1857,6 +1872,12 @@
 				046248C022DF1F40009964FF /* SecretaryCell.h */,
 				046248B822DF1F3F009964FF /* SecretaryCell.m */,
 				046248C222DF1F40009964FF /* SecretaryCell.xib */,
+				041C8C6A22E060F3008BBEE8 /* CadreOneCell.h */,
+				041C8C6B22E060F3008BBEE8 /* CadreOneCell.m */,
+				041C8C6C22E060F3008BBEE8 /* CadreOneCell.xib */,
+				041C8C6F22E0611F008BBEE8 /* CadreTwoCell.h */,
+				041C8C7022E0611F008BBEE8 /* CadreTwoCell.m */,
+				041C8C7122E0611F008BBEE8 /* CadreTwoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2330,6 +2351,7 @@
 				04FA062D22C20DC80036ECBA /* 启动页.jpg in Resources */,
 				04B5F54022CC8C9C007D631C /* CGXPickerViewBundle.bundle in Resources */,
 				A628031522AB4D4800A30200 /* Main.storyboard in Resources */,
+				041C8C7322E0611F008BBEE8 /* CadreTwoCell.xib in Resources */,
 				04FA062B22C20D270036ECBA /* LoginViewController.xib in Resources */,
 				04A9A4D022CB3281003FD66C /* FileController.xib in Resources */,
 				0414D57422C303760034E652 /* 定采欢迎页2.jpg in Resources */,
@@ -2342,6 +2364,7 @@
 				046248E322DF1F64009964FF /* MicroInformationController.xib in Resources */,
 				04B5F52522CC5899007D631C /* CadreDetailsController.xib in Resources */,
 				0414D57722C303760034E652 /* 定采欢迎页4.jpg in Resources */,
+				041C8C6E22E060F3008BBEE8 /* CadreOneCell.xib in Resources */,
 				04013BD122C4C84300D19FD3 /* temp.html in Resources */,
 				040358C922C5AEF300F4FC68 /* DynamicVideoController.xib in Resources */,
 				046248ED22DF1F64009964FF /* MessageController.xib in Resources */,
@@ -2374,10 +2397,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-UnderlyingArchitecture/Pods-UnderlyingArchitecture-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2454,6 +2479,7 @@
 				04B5F52422CC5899007D631C /* CadreDetailsController.m in Sources */,
 				04FA062A22C20D270036ECBA /* LoginViewController.m in Sources */,
 				A62803F222ABE72A00A30200 /* QDNavigationViewController.m in Sources */,
+				041C8C7222E0611F008BBEE8 /* CadreTwoCell.m in Sources */,
 				A6A2AAB422BF33FB00B6063B /* FMDatabasePool.m in Sources */,
 				A6A2ABC222BF347A00B6063B /* LSPTitleView.m in Sources */,
 				04097A1222C0BBC9000A9C2D /* SDCollectionViewCell.m in Sources */,
@@ -2552,6 +2578,7 @@
 				A6A2AAB622BF33FB00B6063B /* JQFMDB.m in Sources */,
 				046248E622DF1F64009964FF /* SecretaryController.m in Sources */,
 				040979F322C0B81E000A9C2D /* PartyBuildingViewController.m in Sources */,
+				041C8C6D22E060F3008BBEE8 /* CadreOneCell.m in Sources */,
 				A62803F422ABE72A00A30200 /* QDTabController.m in Sources */,
 				A6A2ABCB22BF347A00B6063B /* XHWebImageAutoSizeConst.m in Sources */,
 				A6A2ABD122BF347A00B6063B /* UIImage+BoxBlur.m in Sources */,
@@ -2630,6 +2657,7 @@
 				A6A2AAAB22BF33FB00B6063B /* IQNSArray+Sort.m in Sources */,
 				A6A2ABC122BF347A00B6063B /* LSPContentView.m in Sources */,
 				A6A2AB1D22BF341400B6063B /* MLPhotoBrowserCustomToolBarView.m in Sources */,
+				041C8C6922E041F1008BBEE8 /* CardeReportModel.m in Sources */,
 				04B5F54822CC8C9C007D631C /* CGXPickerView.m in Sources */,
 				A62803BA22ABE70100A30200 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				040979F022C0B805000A9C2D /* DynamicViewController.m in Sources */,
@@ -2837,7 +2865,7 @@
 					"$(PROJECT_DIR)/UnderlyingArchitecture/Main/Third/友盟/share/share_ios_6.9.5/SocialLibraries/Sina/SinaSDK",
 					"$(PROJECT_DIR)/UnderlyingArchitecture/Main/Third/友盟/share/share_ios_6.9.5/SocialLibraries/QQ",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = liuPengcheng.UnderlyingArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codery.Dingbian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2878,7 +2906,7 @@
 					"$(PROJECT_DIR)/UnderlyingArchitecture/Main/Third/友盟/share/share_ios_6.9.5/SocialLibraries/Sina/SinaSDK",
 					"$(PROJECT_DIR)/UnderlyingArchitecture/Main/Third/友盟/share/share_ios_6.9.5/SocialLibraries/QQ",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = liuPengcheng.UnderlyingArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codery.Dingbian;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

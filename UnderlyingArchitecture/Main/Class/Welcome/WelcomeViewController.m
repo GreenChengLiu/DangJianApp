@@ -10,6 +10,7 @@
 #import "AppDelegate.h"
 @interface WelcomeViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topCon;
 
 @end
 
@@ -19,7 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationController.navigationBar.hidden = YES;
-    self.scrollView.frame = CGRectMake(0, 0, SCREENـWIDTH, SCREEN_HEIGHT);
+    
+    self.topCon.constant = -NEGATIVE;
     self.scrollView.contentSize = CGSizeMake(SCREENـWIDTH * 4, 0);
     NSArray *array = @[@"定采欢迎页1.jpg",@"定采欢迎页2.jpg",@"定采欢迎页3.jpg",@"定采欢迎页4.jpg"];
     self.scrollView.pagingEnabled = YES;

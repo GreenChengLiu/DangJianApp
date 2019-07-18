@@ -101,8 +101,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    CadreModel *cadreid = self.dataArray[indexPath.row];
     CadreDetailsController *detailVC = [[CadreDetailsController alloc] init];
-    
+    detailVC.cadreid = NSStringFormat(@"%ld",(long)cadreid.cadreid);
+    detailVC.headimgurl = NSStringFormat(@"%@%@",BASE_IMAGE_URL,cadreid.headimg);
     [self.navigationController pushViewController:detailVC animated:YES];
 }
     

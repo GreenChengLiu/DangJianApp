@@ -14,6 +14,8 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - BaiduMapKit (4.4.0)
+  - BMKLocationKit (1.7.0)
   - MJRefresh (3.2.0)
   - SDWebImage (5.0.6):
     - SDWebImage/Core (= 5.0.6)
@@ -21,20 +23,26 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - BaiduMapKit
+  - BMKLocationKit
   - MJRefresh (~> 3.2.0)
   - SDWebImage (~> 5.0.3)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - BaiduMapKit
+    - BMKLocationKit
     - MJRefresh
     - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BaiduMapKit: 19a568e238d6d5a91b93daf7819b868d39cb2206
+  BMKLocationKit: cbe7a93bc288465e12961e65aa3f11a8f9da3bb1
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
 
-PODFILE CHECKSUM: ddd1460f26d55dc4e95c62f874213ad9ddb5c815
+PODFILE CHECKSUM: b93c6131f7547619380b1e2996241b4fb6b0c476
 
 COCOAPODS: 1.5.2

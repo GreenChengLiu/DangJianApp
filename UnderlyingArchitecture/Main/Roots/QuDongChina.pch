@@ -52,4 +52,6 @@
 #define QQ_APP_KEY @"101447549"
 #define QQ_APP_SECRET @"05c1f84da15f1dcd49252b75b4fd2fd0"
 
+#define BAI_DU_APP_KEY @"hOnACu8BE4lQ7aBQaYmPkKrNdzavUzm4"
+
 #endif /* QuDongChina_pch */
