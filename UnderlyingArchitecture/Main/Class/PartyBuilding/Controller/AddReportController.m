@@ -138,7 +138,7 @@
                                                                    @"waichushijian" : [NSString dateToTimestamp:[NSString timeStrToDate:self.timeLabel.text]],
                                                                    @"waichuqixian" : self.termTextField.text,
                                                                    @"waichudidian" : self.location.text,
-                                                                   @"tongxinrenyuan" : self.peerPersonnel.text,
+                                                                   @"tongxingrenyuan" : self.peerPersonnel.text,
                                                                    @"waichu_phone" : self.contact.text,
                                                                    @"other" : self.substitute.text
                                                                    };
@@ -150,6 +150,9 @@
                                                 if (code == 200) {
                                                     
                                                     [SVProgressHUD showSuccessWithStatus:@"请求成功"];
+                                                    if (self.block) {
+                                                        self.block();
+                                                    }
                                                     [self.navigationController popViewControllerAnimated:YES];
                                                 } else {
                                                     [self showALertWithTitle:obj[@"msg"]];

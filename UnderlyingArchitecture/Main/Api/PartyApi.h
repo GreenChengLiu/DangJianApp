@@ -94,6 +94,25 @@ NS_ASSUME_NONNULL_BEGIN
  @param err 失败
  */
 - (void)partyCadreDetail:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+
+/**
+ 审核步骤
+
+ @param auditUrl url
+ @param dict token / id /step / status /reason /is_finished / next_uid
+ @param success 成功
+ @param err 失败
+ */
+- (void)partyAuditOperation:(NSString *)auditUrl andDict:(NSDictionary *)dict andReturnobject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
+
+/**
+ 干部报备,请求人员类型
+
+ @param json level
+ @param success 成功
+ @param err 失败
+ */
+- (void)pendingRebviewRequest:(NSDictionary *)json andReturnObject:(void(^)(NSDictionary *obj))success andError:(void(^)(NSError *error))err;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -48,6 +48,17 @@
  *干部报备详情
  */
 #define CADRE_DETAIL NSStringFormat(@"%@ganbubaobei/detail",QD_BASE_URL)
+
+/**
+ * 干部审批步骤
+ */
+#define CADRE_APPROVAL_STEP_ONE NSStringFormat(@"%@ganbubaobei/shenpi_one",QD_BASE_URL)
+#define CADRE_APPROVAL_STEP_TWO NSStringFormat(@"%@ganbubaobei/shenpi_two",QD_BASE_URL)
+#define CADRE_APPROVAL_STEP_THREE NSStringFormat(@"%@ganbubaobei/shenpi_three",QD_BASE_URL)
+#define CADRE_APPROVAL_STEP_FOUR NSStringFormat(@"%@ganbubaobei/shenpi_four",QD_BASE_URL)
+#define CADRE_APPROVAL_STEP_FIVE NSStringFormat(@"%@ganbubaobei/shenpi_five",QD_BASE_URL)
+
+#define CADRE_LEVEL_LIST NSStringFormat(@"%@Ganbubaobei/level_list",QD_BASE_URL)
 /**
  书记有话说
  */

@@ -26,40 +26,40 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *other;// "赵振东，18191287666",
 @property (nonatomic, copy) NSString *add_time;// "2019-07-15 09:59",
 @property (nonatomic, assign) NSInteger status;// 0,
-@property (nonatomic, assign) NSInteger shenpi1_status;// 1,
+@property (nonatomic, copy) NSString *shenpi1_status;// 1,
 @property (nonatomic, copy) NSString *shenpi1_time;// "2019-07-15 10:01",
 @property (nonatomic, copy) NSString *shenpi1_reason;// "同意",
 @property (nonatomic, assign) NSInteger shenpi1_uid;// 766,
-@property (nonatomic, assign) NSInteger hope1_uid;// null,
-@property (nonatomic, assign) NSInteger shenpi2_status;// 1,
+@property (nonatomic, copy) NSString *hope1_uid;// null,
+@property (nonatomic, copy) NSString *shenpi2_status;// 1,
 @property (nonatomic, copy) NSString *shenpi2_time;// "2019-07-15 10:47",
 @property (nonatomic, copy) NSString *shenpi2_reason;// "",
 @property (nonatomic, assign) NSInteger shenpi2_uid;// 1263,
-@property (nonatomic, assign) NSInteger hope2_uid;// 1409,
-@property (nonatomic, assign) NSInteger shenpi3_status;// 0,
+@property (nonatomic, copy) NSString *hope2_uid;// 1409,
+@property (nonatomic, copy) NSString *shenpi3_status;// 0,
 @property (nonatomic, copy) NSString *shenpi3_time;// "1970-01-01 08:00",
 @property (nonatomic, copy) NSString *shenpi3_reason;// "",
 @property (nonatomic, assign) NSInteger shenpi3_uid;// 0,
-@property (nonatomic, assign) NSInteger hope3_uid;// null,
-@property (nonatomic, assign) NSInteger shenpi4_status;// "0",
+@property (nonatomic, copy) NSString *hope3_uid;// null,
+@property (nonatomic, copy) NSString *shenpi4_status;// "0",
 @property (nonatomic, copy) NSString *shenpi4_time;// "1970-01-01 08:00",
 @property (nonatomic, copy) NSString *shenpi4_reason;// "",
 @property (nonatomic, assign) NSInteger shenpi4_uid;// 0,
 @property (nonatomic, copy) NSString *hope4_uid;// null,
-@property (nonatomic, assign) NSInteger shenpi5_status;// 0,
+@property (nonatomic, copy) NSString *shenpi5_status;// 0,
 @property (nonatomic, copy) NSString *shenpi5_time;// "1970-01-01 08:00",
 @property (nonatomic, copy) NSString *shenpi5_reason;// "",
 @property (nonatomic, assign) NSInteger shenpi5_uid;// 0,
-@property (nonatomic, assign) NSInteger hope5_uid;// null,
+@property (nonatomic, copy) NSString *hope5_uid;// null,
 @property (nonatomic, copy) NSString *shuoming;// "",
 @property (nonatomic, assign) NSInteger uid;// 1514,
 @property (nonatomic, assign) NSInteger ogid;// 6,
 @property (nonatomic, assign) NSInteger all_step;// 5,
-@property (nonatomic, strong) NSDictionary *shenpi1user;
-@property (nonatomic, strong) NSDictionary *shenpi2user;
-@property (nonatomic, strong) NSDictionary *shenpi3user;
-@property (nonatomic, strong) NSDictionary *shenpi4user;
-@property (nonatomic, strong) NSDictionary *shenpi5user;
+@property (nonatomic, strong) shenPiModel *shenpi1user;
+@property (nonatomic, strong) shenPiModel *shenpi2user;
+@property (nonatomic, strong) shenPiModel *shenpi3user;
+@property (nonatomic, strong) shenPiModel *shenpi4user;
+@property (nonatomic, strong) shenPiModel *shenpi5user;
 
 @end
 

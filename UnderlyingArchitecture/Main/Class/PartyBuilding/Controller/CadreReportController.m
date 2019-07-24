@@ -9,6 +9,8 @@
 #import "CadreReportController.h"
 #import "CadreDetailsController.h"
 #import "AddReportController.h"
+/**  views  **/
+
 /**  cell  **/
 #import "CadreReportCell.h"
 /**  api  **/
@@ -18,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, assign) NSInteger page;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+
 @end
 
 @implementation CadreReportController
@@ -28,7 +31,7 @@
     }
     return _dataArray;
 }
-    
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -56,7 +59,11 @@
 #pragma mark ======   添加button action:   ======
 - (void)buttonAction:(UIButton *)sender{
     AddReportController *addVC = [[AddReportController alloc] init];
-    
+    __weak typeof(self) weakSelf = self;
+    addVC.block = ^{
+        weakSelf.page = 1;
+        [weakSelf getRequest];
+    };
     [self.navigationController pushViewController:addVC animated:YES];
 }
 #pragma mark ======   add mjrefresh   ======
@@ -105,6 +112,14 @@
     CadreDetailsController *detailVC = [[CadreDetailsController alloc] init];
     detailVC.cadreid = NSStringFormat(@"%ld",(long)cadreid.cadreid);
     detailVC.headimgurl = NSStringFormat(@"%@%@",BASE_IMAGE_URL,cadreid.headimg);
+    __weak typeof(self) weakSelf = self;
+    detailVC.block = ^(BOOL isFinished) {
+        if (isFinished) {
+            weakSelf.page = 1;
+            [weakSelf getRequest];
+        }
+    };
+    
     [self.navigationController pushViewController:detailVC animated:YES];
 }
     

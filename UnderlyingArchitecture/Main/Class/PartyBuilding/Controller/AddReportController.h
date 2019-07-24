@@ -10,8 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^AddReportControllerBlock)(void);
+
 @interface AddReportController : BaseViewController
 
+
+@property (nonatomic, copy) AddReportControllerBlock block;
 @end
 
 NS_ASSUME_NONNULL_END

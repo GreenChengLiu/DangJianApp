@@ -20,6 +20,16 @@ typedef void(^ApiOtherRequest)(NSInteger index);
 
 + (void)apiRequestOtherRequestMethod:(NSString *)method Url:(NSString *)url andJson:(NSDictionary *)json andBlock:(ApiOtherRequest)block andError:(ApiRequestError)err;
 
+/**
+ 通过body来传递参数
+
+ @param body 参数
+ @param url 网址
+ @param block 成功
+ @param err 失败
+ */
++ (void)apiRequestWithBody:(NSDictionary *)body andMethod:(NSString *)method url:(NSString *)url andBlock:(ApiDataRequest)block andError:(ApiRequestError)err;
+
 @end
 
 NS_ASSUME_NONNULL_END

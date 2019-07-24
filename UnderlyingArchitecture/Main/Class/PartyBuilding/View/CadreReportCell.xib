@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -66,15 +66,28 @@
                         <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdw-5h-0Kj">
+                        <rect key="frame" x="0.0" y="78.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="r2F-sP-JQQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="jhp-7p-dsh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="1VN-2x-cmh"/>
                     <constraint firstItem="YuC-kr-CtW" firstAttribute="centerX" secondItem="KJ4-Vb-aYA" secondAttribute="centerX" id="Fri-W9-3HZ"/>
                     <constraint firstAttribute="trailing" secondItem="KJ4-Vb-aYA" secondAttribute="trailing" constant="10" id="Jex-P5-PUa"/>
                     <constraint firstItem="YuC-kr-CtW" firstAttribute="top" secondItem="KJ4-Vb-aYA" secondAttribute="bottom" constant="10" id="MSm-F8-YsU"/>
+                    <constraint firstAttribute="bottom" secondItem="pdw-5h-0Kj" secondAttribute="bottom" id="WaJ-zR-oH9"/>
                     <constraint firstItem="KfA-6D-g4A" firstAttribute="leading" secondItem="jhp-7p-dsh" secondAttribute="trailing" constant="10" id="Xhn-f0-KRb"/>
                     <constraint firstItem="YuC-kr-CtW" firstAttribute="leading" secondItem="pvn-8g-lfA" secondAttribute="trailing" constant="20" id="Zsg-Ml-3Ac"/>
+                    <constraint firstAttribute="trailing" secondItem="pdw-5h-0Kj" secondAttribute="trailing" id="abq-bd-oL7"/>
                     <constraint firstItem="pvn-8g-lfA" firstAttribute="top" secondItem="KfA-6D-g4A" secondAttribute="bottom" constant="6" id="cn6-B6-rim"/>
+                    <constraint firstItem="pdw-5h-0Kj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="d3K-7D-Mbh"/>
                     <constraint firstItem="KJ4-Vb-aYA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="hwd-g2-gjP"/>
                     <constraint firstItem="KfA-6D-g4A" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-10" id="qyx-8f-i5N"/>
                     <constraint firstItem="pvn-8g-lfA" firstAttribute="leading" secondItem="jhp-7p-dsh" secondAttribute="trailing" constant="10" id="vji-K6-tiZ"/>
@@ -89,7 +102,7 @@
                 <outlet property="name" destination="KfA-6D-g4A" id="yhR-jz-m76"/>
                 <outlet property="time" destination="KJ4-Vb-aYA" id="rku-Nl-5UX"/>
             </connections>
-            <point key="canvasLocation" x="128.98550724637681" y="169.41964285714286"/>
+            <point key="canvasLocation" x="128" y="169.11544227886057"/>
         </tableViewCell>
     </objects>
     <resources>

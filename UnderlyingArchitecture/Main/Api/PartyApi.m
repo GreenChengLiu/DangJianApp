@@ -125,4 +125,25 @@ static PartyApi *api = nil;
         err(error);
     }];
 }
+
+- (void)partyAuditOperation:(NSString *)auditUrl andDict:(NSDictionary *)dict andReturnobject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+//    [QDApi apiRequestWithRequestMethod:@"post" Url:auditUrl andJson:dict andBlock:^(NSDictionary * _Nonnull dict) {
+//        success(dict);
+//    } andError:^(NSError * _Nonnull error) {
+//        err(error);
+//    }];
+    [QDApi apiRequestWithBody:dict andMethod:@"POST" url:auditUrl andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
+
+- (void)pendingRebviewRequest:(NSDictionary *)json andReturnObject:(void (^)(NSDictionary * _Nonnull))success andError:(void (^)(NSError * _Nonnull))err{
+    [QDApi apiRequestWithRequestMethod:@"post" Url:CADRE_LEVEL_LIST andJson:json andBlock:^(NSDictionary * _Nonnull dict) {
+        success(dict);
+    } andError:^(NSError * _Nonnull error) {
+        err(error);
+    }];
+}
 @end
